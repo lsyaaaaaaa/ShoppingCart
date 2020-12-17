@@ -1,0 +1,39 @@
+.box{
+  width: 1200px;
+  background-color: #fff;
+}
+.site-layout .site-layout-background {
+  background: #fff;
+}
+.site-layout{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #fff;
+}
+.productlist{
+  width: 1350px;
+  /* height: 1200px; */
+  margin: 0 auto;
+}
+.box :global(.ant-menu){
+  margin-left: 100px;
+}
+.cart:hover{
+  box-shadow: red;
+}
+.button{
+  background-color: #f0f0f0;
+  border: none;
+}
+.button:hover,.button:active,.button:focus,.button:visited{
+  background-color: black;
+  border: none;
+  color: #fff;
+}
+
+
+
+.menu:hover,.menu:active,.menu:focus,.menu:visited{
+  background-color: red;
+  color: red;
+}
