@@ -86,7 +86,7 @@ class Cart extends React.Component {
                 <List.Item.Meta
                   avatar={<img src={`./img/${item.sku}_2.jpg`} alt="1" style={{ width: 50 }} />}
                   title={item.title}
-                  description={item.size + " | " + item.style +" Quantity: " + item.number }
+                  description={item.size + " | " + item.style + " | Quantity: " + item.number }
                   
                 />
                 <div style={{color:"#1890FF"}}>${item.price}</div>
