@@ -41,6 +41,13 @@ class Screen extends React.Component {
       <>
         <h2>Sizes:</h2>
         <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
+        <Col className="gutter-row" span={6}>
+            <div style={style}>
+              <Button className={styles.button} shape="circle" size="large" key="setting:6" onClick={() => this.onScreen("")}>
+                ALL
+              </Button>
+            </div>
+          </Col>
           <Col className="gutter-row" span={6}>
             <div style={style}>
               <Button className={styles.button} shape="circle" size="large" key="setting:1" onClick={() => this.onScreen("S")}>
