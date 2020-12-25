@@ -46,6 +46,7 @@
   width: 100%;
   margin-left: 74px;
   margin-top: 84px;
+  position: fixed;
 }
 
 .content{
@@ -63,7 +64,7 @@
 
   .sider{
     margin-top: 20px;
-    
+    position: relative;
   }
 
   .screen {
