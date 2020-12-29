@@ -87,7 +87,7 @@ class Goods extends React.Component {
         // const { Option } = Select;
 
         const list = (productData || []).map((item, key) => {
-            let newPrice = item.price + ''
+            let newPrice = item.price.toFixed(2) + ''
             const newPrices = newPrice.split(".");
             const num1 = newPrices[0] //整数
             const num2 = newPrices[1] //小数

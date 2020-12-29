@@ -89,7 +89,7 @@ class Cart extends React.Component {
                   description={item.size + " | " + item.style + " | Quantity: " + item.number }
                   
                 />
-                <div style={{color:"#1890FF"}}>${item.price}</div>
+                <div style={{color:"#1890FF"}}>${item.price.toFixed(2)}</div>
               </List.Item>
             )}
           />
